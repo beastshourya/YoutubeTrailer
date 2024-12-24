@@ -1,0 +1,34 @@
+/* src/components/TrailerCard.css */
+.trailer-card-link {
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.trailer-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent card */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.trailer-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.trailer-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.trailer-title {
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}

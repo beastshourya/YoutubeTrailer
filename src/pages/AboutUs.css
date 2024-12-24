@@ -1,0 +1,34 @@
+/* src/pages/AboutUs.css */
+.aboutus-container {
+    background-color: rgba(255, 0, 0, 0.9);
+    /* YouTube red theme */
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    /* Subtle shadow for depth */
+    font-family: Arial, sans-serif;
+}
+
+.aboutus-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffd700;
+    /* Gold for title contrast */
+}
+
+.aboutus-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.aboutus-container strong {
+    color: #ffd700;
+    /* Highlight brand name */
+}

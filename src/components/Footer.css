@@ -1,0 +1,28 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: rgba(255, 0, 0, 0.9);
+    /* YouTube red with slight transparency */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    position: relative;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.footer a {
+    color: #ffd700;
+    /* Gold links for contrast */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: white;
+}

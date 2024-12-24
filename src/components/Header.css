@@ -1,0 +1,46 @@
+/* src/components/Header.css */
+.header {
+    background-color: rgba(255, 0, 0, 0.9);
+    /* YouTube red with slight transparency */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logo-text {
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.nav-link:hover {
+    color: #ffd700;
+    /* Gold color on hover */
+    transform: scale(1.1);
+    /* Subtle zoom effect */
+}
