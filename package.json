@@ -2,7 +2,7 @@
   "name": "youtube-trailer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-username.github.io/your-repository-name",
+  "homepage": "https://beastshourya.github.io/YoutubeTrailer/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
